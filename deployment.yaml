@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: ingjeon/myweb:14
+        image: ingjeon/myweb:latest
         ports:
         - containerPort: 8080
