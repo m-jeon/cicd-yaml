@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: ingjeon/myweb-k8s-jenkins
+        image: ingjeon/myweb:latest
         ports:
         - containerPort: 8080
